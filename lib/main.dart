@@ -89,6 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
+          
           // Column is also a layout widget. It takes a list of children and
           // arranges them vertically. By default, it sizes itself to fit its
           // children horizontally, and tries to be as tall as its parent.
@@ -104,6 +105,11 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            Image.asset(
+              'assets/images/auth/auth.png', // Replace with your image path
+              width: 200, // Set the desired width
+              height: 200, // Set the desired height
+            ),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
